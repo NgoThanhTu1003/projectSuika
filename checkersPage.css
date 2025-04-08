@@ -1,0 +1,173 @@
+html, body,button {
+    margin: 0;
+    height: 100%;
+    width:100%;
+    background-color: lightblue;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    color:#F1FAEE;
+    font-size: 20px;
+
+}
+
+/* gorno menu */
+hr{
+    margin-top: 100px;
+    color:#1D3557;
+    text-align: center;
+    border-style: solid;
+ 
+}
+
+.topMenu,.topMenu2{
+    top:0;
+    background-color:#1D3557;
+    width:100%; 
+    height:80px;
+    margin:0px ;
+    padding:0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topMenu{
+    position: fixed;
+
+}
+
+
+.topMenuText{
+    padding:20px;
+    margin:0px;
+    padding-left: 15%;
+}
+
+.topMenuButton{
+    background-color:#E63946;
+    border-radius: 8px;
+    height:40px;
+    margin: auto 100px auto 0;
+    width:150px;
+    font-size:20px;
+}
+/* gorno menu */
+
+suica{
+    width:45% !important;
+    height:60% !important;
+    background: lightblue ;
+    display:block;
+    margin:100px auto auto auto;
+    /* margin-top:30px; */
+}
+
+/* #suica-fullscreen-button{
+    width:20%;
+    height:20%;
+} */
+
+canvas{
+    border:0px !important;
+
+}
+
+/* tutorialBubble */
+.tutBubble{
+    background-color: #F1FAEE;
+    
+    width:30%;
+    height:25%;
+    display:block;
+    border-radius: 50px;
+    margin:auto;
+    margin-top:30px;
+    /* padding:20px; */
+    
+    border:10px solid #1D3557 ;
+    
+}
+
+.tutBubbleText{
+    color:#1D3557;
+    text-align: center;
+    font-weight: bold;
+    padding-left:10px;
+    padding-right: 10px;
+
+    margin-top:10px;
+    /* margin-bottom: auto; */
+}
+
+/* butoni previous,next */
+
+.prevButton,.nextButton{
+    width:120px;
+    height:40px;
+    background-color: #1D3557;
+    display: block;
+    border-radius: 8px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.prevButton{
+    top:60%;
+    left:15%;
+    /* visibility: hidden; */
+    display: none;
+}
+
+.nextButton{
+    top:60%;
+    left:80%;
+}
+
+#image1{
+    width:30%;
+    height: 50%;
+    display: block;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: 20px auto 10px auto;
+
+
+}
+#image1:hover{
+    opacity: 0.7;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+    cursor:pointer;
+}
+
+.myModal{
+    display: none; 
+    position: fixed; 
+    /* z-index: 1;  */
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    /* overflow: auto; Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+#imageModal {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+#close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }

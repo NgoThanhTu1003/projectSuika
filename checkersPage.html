@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="suica.js"></script>
+	<script src="tween.umd.js"></script>
+    <link rel="stylesheet" type="text/css" href="checkersPage.css"/>
+	
+
+
+    
+</head>
+<body>
+    
+
+    <div class="topMenu"> 
+        <h1 class="topMenuText">Шашки за начинаещи</h1>
+        <button class="topMenuButton" onclick="buttonPlay()">ИГРАЙ</button>
+
+	</div>
+    <div class="topMenu2">
+
+    </div> 
+
+    <div class="tutBubble">
+        <p class="tutBubbleText" >
+        </p>
+    </div>
+
+    <button class="nextButton" onclick="nextButton()">NEXT</button>
+    <button id="prevButton" class="prevButton" onclick="previuosButton()">PREVIOUS</button>
+    
+    <div id="examplePics">
+            <img id="image1" src="" >
+    </div>
+        
+    <div id="myModal" >
+            <span class="close">&times;</span>
+            <img class="imageModal" >
+    </div>
+          
+    <suica id="suica" onPointerDown="pointerDown" onPointerUp="pointerUp">
+    
+    </suica>
+
+
+    
+
+    <script src="checkersPageJS.js"></script>
+</body>
+</html>
